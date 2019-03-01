@@ -2,8 +2,10 @@
 
 def loop_iterator(number_of_times)
   # Code your solution here using the "loop" keyword to puts out the below phrase
-  Loop do 
-    number_of_times = 4..10
+  counter = 0
+  Loop do
+    number_of_times = number_of_times+1
+    
     Puts "Welcome to Flatiron School's Web Development Course!"
     break
     
